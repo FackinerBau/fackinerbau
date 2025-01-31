@@ -1,158 +1,41 @@
-/* --- Grundlegendes Layout --- */
 body {
-    font-family: 'Roboto', sans-serif;
-    color: #333333;
-    background-color: #E5E5E5;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
     margin: 0;
     padding: 0;
 }
 
-/* --- Überschriften --- */
-h1, h2, h3 {
-    font-family: 'Montserrat', sans-serif;
-    color: #9C3D36;
-}
-
-h1 {
-    font-size: 2.5rem;
-}
-
-h2 {
-    font-size: 2rem;
-}
-
-/* --- Buttons --- */
-.button {
-    background-color: #9C3D36;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 4px;
-    font-size: 1rem;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.button:hover {
-    background-color: #7A2E28;
-}
-
-/* --- Navigation --- */
-nav {
-    background-color: white;
-    padding: 15px 20px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-    height: 50px; /* Logo verkleinern */
-}
-
-nav a {
-    color: #222222;
-    text-decoration: none;
-    font-weight: bold;
-    padding: 10px 15px;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #9C3D36;
-}
-
-/* --- Hero-Bereich --- */
-.hero {
-    position: relative;
-    height: 80vh;
-    background: url('bauprojekt.jpg') center/cover no-repeat; /* Austauschbares Bild */
-    color: white;
-    text-align: center;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+header {
+    background-color: #8b0000;
     padding: 20px;
 }
 
-.hero h1 {
-    font-size: 3rem;
-    font-weight: bold;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+header img {
+    max-width: 300px;
 }
 
-.hero p {
-    font-size: 1.3rem;
-    max-width: 600px;
-    margin-top: 10px;
-}
-
-/* --- Call to Action Button --- */
-.hero .cta {
-    background-color: #9C3D36;
-    color: white;
-    padding: 15px 30px;
-    border-radius: 5px;
-    font-size: 1.2rem;
-    margin-top: 20px;
-    text-transform: uppercase;
-    transition: 0.3s;
-}
-
-.hero .cta:hover {
-    background-color: #7A2E28;
-    transform: scale(1.05);
-}
-
-/* --- Flexibles Grid für Leistungen --- */
-.services {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 50px 5%;
-    background: #F4F1EB;
-}
-
-.service-card {
-    background: white;
+main {
     padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    transition: 0.3s;
-    text-align: center;
 }
 
-.service-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.15);
+h1, h2 {
+    color: #8b0000;
 }
 
-.service-card h3 {
-    color: #9C3D36;
+ul {
+    list-style: none;
+    padding: 0;
 }
 
-/* --- Container & Layout --- */
-.container {
-    width: 80%;
-    margin: auto;
-    max-width: 1200px;
-}
-
-/* --- Footer --- */
 footer {
-    background-color: #222222;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #333;
     color: white;
-    padding: 40px 5%;
-    text-align: center;
 }
 
 footer a {
-    color: #9C3D36;
+    color: white;
     text-decoration: none;
-}
-
-footer a:hover {
-    text-decoration: underline;
 }
